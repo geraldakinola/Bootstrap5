@@ -45,7 +45,7 @@
         <div>
             <h1>Become a <span class="text-warning">Web Developer</span></h1>
             <p class="lead my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime culpa odio cum suscipit architecto mollitia.</p>
-            <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" dats-bs-target>Start The Enrollment</button>
         </div>
       <img class="img-fluid w-50 d-none d-sm-block" src="images/dev.svg" alt="showcase">
       </div>    
@@ -296,7 +296,59 @@
         </div>
     </div>
 </section>
+<!-- contact and map -->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location</span> 50 Main St Boston MA
+                    </li>
+                    <li class="list-group-item">
+                       <span class="fw-bold">Student Phone</span> (054)222-4354
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment Email</span>(222) venroll@frontendbc.test
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Student Email</span>(333)akinolagerald@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md"></div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<!-- modal -->
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
+<footer class="p-5 bg-dark text-white text-center postion-relative">
+    <div class="container">
+        <p class="lead">copyright &copy; 2021 Frontend Bootcamp</p>
+
+        <a href="" class="position-absolute button-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+    </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
